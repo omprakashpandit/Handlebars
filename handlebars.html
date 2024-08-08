@@ -1,0 +1,12 @@
+<html>
+<script src="handlebars-v4.7.8.js"></script>
+<!-- Include Handlebars from a CDN -->
+<!--<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>-->
+<script>
+  // compile the template
+  var template = Handlebars.compile("Handlebars <b>{{doesWhat}}</b>");
+  // execute the compiled template and print the output to the console
+  console.log(template({ doesWhat: "Welcome.!!!" }));
+</script>
+<body>Hello World.!</body>
+</html>
